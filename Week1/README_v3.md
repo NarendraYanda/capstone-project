@@ -1,7 +1,6 @@
 
 # PDF and Table Extraction with OCR and NLP Pipeline
 
-This repository contains a Python pipeline for extracting text, tables, and performing Natural Language Processing (NLP) on PDF files. It combines Optical Character Recognition (OCR) and PDF-specific tools to extract structured data, such as tables, while retaining important contextual information surrounding the tables.
 
 ## Features
 - **Text and Table Extraction**: Extracts text from PDFs using `pdfplumber` and tables using `tabula-py`.
@@ -12,8 +11,7 @@ This repository contains a Python pipeline for extracting text, tables, and perf
 
 ## Setup Instructions
 
-### Step 1: Mount Google Drive (For Colab users)
-If you're working in Google Colab, mount Google Drive to access the PDF files.
+### Step 1: Mount Google Drive ( Colab )
 
 ```python
 from google.colab import drive
@@ -207,10 +205,4 @@ This combined output provides both structured (tables) and unstructured (text) i
 - **SpaCy**: Named Entity Recognition (NER).
 
 ---
-
-## How to Contribute
-Feel free to open issues or pull requests to improve the pipeline. Contributions for extending the support to more document formats or improving the extraction and preprocessing steps are highly encouraged.
-
-## License
-This project is licensed under the MIT License.
 
