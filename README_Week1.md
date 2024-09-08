@@ -1,7 +1,5 @@
 
-# PDF Data Extraction and Preprocessing Pipeline
-
-This repository contains a Python-based pipeline for extracting and preprocessing textual and tabular data from PDF files, combining Optical Character Recognition (OCR) and Natural Language Processing (NLP) techniques. The primary goal is to handle legal documents, focusing on extracting tables with their surrounding context and preprocessing text for further analysis.
+# PDF Data Extraction and Preprocessing
 
 ## Features
 - **PDF Text Extraction**: Extracts both text and tables from PDF files using `pdfplumber` and `tabula-py`.
