@@ -128,15 +128,6 @@ For each processed PDF file, the pipeline generates:
 - **Named Entities**: Recognized named entities such as names, locations, and dates.
 - **Tables with Context**: Extracted tables from the PDF along with the text immediately above and below the table for added context.
 
-## Folder Structure
-```text
-.
-├── data/
-│   └── PDF/
-│       └── [Your PDF files go here]
-├── script.ipynb
-└── README.md
-```
 
 ## Libraries Used
 - **Tesseract-OCR**: For Optical Character Recognition (OCR).
@@ -145,9 +136,3 @@ For each processed PDF file, the pipeline generates:
 - **tabula-py**: Extract tables from PDF documents.
 - **NLTK**: Tokenization, stopword removal, and lemmatization.
 - **SpaCy**: Named Entity Recognition (NER) using pre-trained models.
-
-## How to Contribute
-Feel free to open issues or pull requests to improve the pipeline. Contributions for adding support for other document formats or enhancing the preprocessing steps are welcome.
-
-## License
-This project is licensed under the MIT License.
