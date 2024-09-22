@@ -1,5 +1,5 @@
 
-# Automated Legal Document Summarization - Checkpoint 2 Solution
+# Automated Legal Document Summarization
 
 ## Overview
 
