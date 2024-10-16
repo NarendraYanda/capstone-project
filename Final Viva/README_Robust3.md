@@ -1,10 +1,4 @@
 
-# Legal Document Processing and Query-based Summarization
-
-This project aims to extract and summarize relevant information from legal documents using NLP, embeddings, FAISS indexing, and K-Means clustering. The solution supports both full-document and query-based summarization.
-
----
-
 ## Process Flow Overview
 
 The system begins by reading and preprocessing legal documents, chunking them into meaningful sections, generating embeddings, clustering similar chunks, and providing query-based or full-document summaries.
