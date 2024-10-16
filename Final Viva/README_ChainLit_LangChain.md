@@ -1,8 +1,4 @@
 
-# PDF Summarization and Query System
-
-This repository provides an end-to-end pipeline for processing PDF documents, performing summarization, and answering queries using state-of-the-art NLP models. The system leverages **BERT-based embeddings**, **FAISS** for vector similarity searches, **LangChain RAG Chains**, and **Chainlit** for an intuitive interface.
-
 ## **Features**
 - **Parallel PDF Processing**: Uses `pdfplumber` to extract text from PDFs and process them concurrently.
 - **Embedding Storage with FAISS**: Enables fast similarity search across large document collections.
@@ -52,10 +48,6 @@ Chainlit handles user interactions, allowing users to upload PDFs, request summa
 ## **Example Usage**
 Place your PDFs in a folder and provide the path as input to the system:
 
-```bash
-python main.py
-```
-
 In the Chainlit interface, you can:
 - **Summarize a document**: Type `summarize <document_name>`
 - **Ask a query**: Type your question directly.
@@ -64,9 +56,6 @@ In the Chainlit interface, you can:
 - **Scalability**: Explore Pinecone or Weaviate for better scalability.
 - **Multi-lingual Support**: Integrate language detection and multi-lingual models.
 - **Active Learning**: Implement feedback loops to refine the system based on user inputs.
-
-## **License**
-This project is licensed under the MIT License.
 
 ## **Acknowledgments**
 - **LangChain** for RAG chains and prompt templates.
