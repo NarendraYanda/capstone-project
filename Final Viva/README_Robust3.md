@@ -133,5 +133,3 @@ python your_script_name.py
 query = "Can a party terminate the contract without cause?"
 dynamic_summary_mode(docs, faiss_index, clusters, kmeans_model, all_chunks, chunk_document_mapping, mode="query", query=query, top_k=2)
 ```
-
-This README provides a complete overview of the system, detailing each step, why specific models and techniques are used, and future improvements to enhance the solution further.
