@@ -1,7 +1,6 @@
 
 # Automated Legal Document Summarization
 
-## Overview: What Are You Achieving?
 
 The goal of this code is to **automate the extraction, categorization, and summarization of legal documents** using **machine learning models (Legal-BERT, K-Means)** and **efficient search engines (FAISS)**. The code allows you to:
 1. **Process legal documents stored as PDFs**.
@@ -155,5 +154,3 @@ This solution ensures **faster document comprehension** and **precise answers** 
 - **Efficient query-based retrieval** using FAISS and K-Means clustering.
 - **Dynamic summarization** through **LLaMA** tailored to specific queries.
 - **Scalable solution** that accelerates legal document review.
-
-This solution saves **time and effort for legal professionals**, offering **precise, relevant answers** from large legal documents in a **scalable and efficient way**.
